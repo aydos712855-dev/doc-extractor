@@ -1,0 +1,15 @@
+{
+  "doc_type": "act",
+  "supplier_name": "ИП Нурланов Асет Бекович",
+  "supplier_bin": "850615300412",
+  "doc_number": "15",
+  "doc_date": "2026-10-20",
+  "currency": "KZT",
+  "total_amount": 500000,
+  "vat_amount": null,
+  "line_items": [
+    {"name": "Монтаж вентиляционной системы", "qty": 1, "price": null}
+  ],
+  "field_confidence": {"supplier_bin": 1.0},
+  "warnings": []
+}

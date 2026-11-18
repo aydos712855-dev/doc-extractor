@@ -1,0 +1,17 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "ТОО «ЭкоПак Решения»",
+  "supplier_bin": "190342087654",
+  "doc_number": "004",
+  "doc_date": "2026-11-01",
+  "currency": "KZT",
+  "total_amount": 138000,
+  "vat_amount": 19034.48,
+  "line_items": [
+    {"name": "Пакет полиэт. 25x35", "qty": 5000, "price": 12},
+    {"name": "Пакет полиэт. 35x50", "qty": 3000, "price": 18},
+    {"name": "Стрейч-плёнка (рулон)", "qty": 20, "price": 1200}
+  ],
+  "field_confidence": {"supplier_bin": 1.0},
+  "warnings": []
+}

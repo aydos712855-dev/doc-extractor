@@ -1,0 +1,17 @@
+{
+  "doc_type": "commercial_offer",
+  "supplier_name": "PrintMaster",
+  "supplier_bin": null,
+  "doc_number": null,
+  "doc_date": null,
+  "currency": "KZT",
+  "total_amount": null,
+  "vat_amount": null,
+  "line_items": [
+    {"name": "Широкоформатная печать баннеров (1 кв.м.)", "qty": null, "price": 3500},
+    {"name": "Дизайн макета", "qty": null, "price": 15000},
+    {"name": "Монтаж баннера", "qty": null, "price": 8000}
+  ],
+  "field_confidence": {"supplier_bin": 0.0},
+  "warnings": []
+}

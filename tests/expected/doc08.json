@@ -1,0 +1,16 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "ЖШС \"Алтын Дала Агро\"",
+  "supplier_bin": "120530007412",
+  "doc_number": "ШФ-2026/003",
+  "doc_date": "2026-11-07",
+  "currency": "KZT",
+  "total_amount": 505000,
+  "vat_amount": null,
+  "line_items": [
+    {"name": "Бидай ұны жоғары сорт / Мука пшеничная в/с", "qty": 1000, "price": 180},
+    {"name": "Күнбағыс майы / Масло подсолнечное", "qty": 500, "price": 650}
+  ],
+  "field_confidence": {"supplier_bin": 0.4},
+  "warnings": ["supplier_bin contains OCR artifacts: 'I' and 'О' replaced with '1' and '0' — original: 'I20530О07412'"]
+}

@@ -1,0 +1,17 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "ТОО «МегаСтрой KZ»",
+  "supplier_bin": "110840056789",
+  "doc_number": "77",
+  "doc_date": "2026-09-15",
+  "currency": "KZT",
+  "total_amount": 621600,
+  "vat_amount": 66600,
+  "line_items": [
+    {"name": "Цемент М500 (мешок)", "qty": 200, "price": 1850},
+    {"name": "Арматура 12мм (пог.м)", "qty": 500, "price": 320},
+    {"name": "Доставка", "qty": 1, "price": 25000}
+  ],
+  "field_confidence": {"supplier_bin": 1.0},
+  "warnings": ["Contradiction: two different total amounts found — '621 600 тенге' (К оплате с учётом НДС) and '625 000 тенге' (Общая сумма к оплате). Using the itemized subtotal + VAT = 621 600."]
+}

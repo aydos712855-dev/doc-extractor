@@ -1,0 +1,15 @@
+{
+  "doc_type": "act",
+  "supplier_name": "ЖШС «Көкжиек Құрылыс»",
+  "supplier_bin": "210640900180",
+  "doc_number": "AKT-09",
+  "doc_date": "2026-10-09",
+  "currency": "KZT",
+  "total_amount": 340000,
+  "vat_amount": null,
+  "line_items": [
+    {"name": "Қызмет көрсету / Оказание услуг", "qty": 1, "price": 340000}
+  ],
+  "field_confidence": {"supplier_bin": 0.4},
+  "warnings": ["supplier_bin contains OCR artifacts: 'l' and 'O' replaced with '1' and '0' — original: '2l064090Ol80'"]
+}

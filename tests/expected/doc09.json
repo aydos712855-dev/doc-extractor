@@ -1,0 +1,16 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "ТОО \"ТехноПарк\"",
+  "supplier_bin": "150340021334",
+  "doc_number": "2026-99",
+  "doc_date": "2026-11-08",
+  "currency": "KZT",
+  "total_amount": 164720,
+  "vat_amount": 22720,
+  "line_items": [
+    {"name": "Роутер Mikrotik RB951", "qty": 10, "price": 12500},
+    {"name": "Кабель UTP cat6 (м)", "qty": 200, "price": 85}
+  ],
+  "field_confidence": {"supplier_bin": 0.3},
+  "warnings": ["supplier_bin contains OCR artifacts: multiple '0' (zero) replacing 'О' (Cyrillic O) and digit replacements — original: 'B1H: 15О34ОО21ЗЗ4'. Confidence low."]
+}

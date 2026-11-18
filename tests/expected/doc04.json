@@ -1,0 +1,16 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "АО \"КазТехСервис\"",
+  "supplier_bin": "040740003456",
+  "doc_number": "СФ-2026/88",
+  "doc_date": "2026-10-03",
+  "currency": "USD",
+  "total_amount": 7616.00,
+  "vat_amount": 816.00,
+  "line_items": [
+    {"name": "Лицензия программного обеспечения", "qty": 5, "price": 1200.00},
+    {"name": "Установка и настройка", "qty": 1, "price": 800.00}
+  ],
+  "field_confidence": {"supplier_bin": 1.0},
+  "warnings": []
+}
